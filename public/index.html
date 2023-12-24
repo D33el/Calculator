@@ -11,33 +11,34 @@
 		<main>
 			<div id="calculator">
 				<div class="head">
-					<div class="expression">1200 X 765</div>
-					<div class="result">58936</div>
+					<div class="expressions"></div>
+					<div class="result"></div>
 					<div class="controls">
-						<img src="img/icons/cross-small.png" class="icon reset" />
-						<img src="img/icons/rotate-left.png" class="icon delete-last" />
+						<img src="img/icons/cross.png" class="icon delete-last" />
+						<img src="img/icons/rotate-left.png" class="icon reset" />
 					</div>
 				</div>
 				<div class="body">
-					<div class="number">1</div>
-					<div class="number">2</div>
-					<div class="number">3</div>
-					<img src="img/icons/slash.png" class="icon operation" data-id="division" />
-					<div class="number">4</div>
-					<div class="number">5</div>
-					<div class="number">6</div>
-					<img src="img/icons/cross.png" class="icon operation" data-id="multiplication" />
-					<div class="number">7</div>
-					<div class="number">8</div>
-					<div class="number">9</div>
-					<img src="img/icons/minus.png" class="icon operation" data-id="substraction" />
-					<div class="number">AC</div>
-					<div class="number">0</div>
-					<img src="img/icons/equal.png" class="icon operation" data-id="equal" />
-					<img src="img/icons/plus.png" class="icon operation" data-id="addition" />
+					<div class="digit number">1</div>
+					<div class="digit number">2</div>
+					<div class="digit number">3</div>
+					<div class="digit operation"><img src="img/icons/slash.png" class="icon" data-id="/" /></div>
+					<div class="digit number">4</div>
+					<div class="digit number">5</div>
+					<div class="digit number">6</div>
+					<div class="digit operation"><img src="img/icons/cross.png" class="icon" data-id="*" /></div>
+					<div class="digit number">7</div>
+					<div class="digit number">8</div>
+					<div class="digit number">9</div>
+					<div class="digit operation"><img src="img/icons/minus.png" class="icon" data-id="-" /></div>
+					<div class="digit delete">AC</div>
+					<div class="digit number">0</div>
+					<div class="digit operation"><img src="img/icons/equal.png" class="icon" data-id="=" /></div>
+					<div class="digit operation"><img src="img/icons/plus.png" class="icon" data-id="+" /></div>
 				</div>
 			</div>
 		</main>
 	</body>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script src="js/index.js"></script>
 </html>
